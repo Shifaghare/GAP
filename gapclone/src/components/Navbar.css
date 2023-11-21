@@ -1,0 +1,183 @@
+#navbar-screen{
+    height: 190px;
+    width: 100%;
+    /* border: 1px solid green; */
+    background-color: white;
+}
+.navbar-1{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.nav-1-left{
+    width: 4.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.nav-1-left > img{
+    height: 40%;
+    width: 45%;
+    margin-top: 25%;
+}
+.nav-1-right{
+    background-color: #333333;
+    width: 96.5%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1-right-left{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1-right-left > div:nth-child(1){
+    /* border: 1px solid red; */
+    height: 96%;
+    width: 44%;
+    /* align-self: center; */
+    margin-inline-start: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.nav-1-right-left > div:nth-child(1) > p{
+    font-size: 13.5px;
+    align-self: center;
+}
+.nav-1-right-left > div:nth-child(2){
+    /* border: 1px solid red; */
+    height: 96%;
+    width: 40%;
+    /* align-self: center; */
+    color: white;
+}
+.nav-1-right-left > div:nth-child(2) > p{
+    font-size: 11.5px;
+}
+.nav-1-right-right{
+    /* border: 1px solid blue; */
+    height: 100%;
+    display: flex;
+    width: 12%;
+}
+.nav-1-right-right > div{
+    
+    width: 62%;
+    height: 100%;
+    text-align: left;
+}
+.sign-in-p{
+    color: white;
+    font-size: 12px;
+    margin: 0%;
+    align-self: center;
+    margin-top: 2px; 
+}
+.sign-in-p > span{
+    font-weight: 500;
+    font-size: 10px;
+   
+}
+.nav-1-right-right > button{
+    height: 80%;
+    align-self: center;
+    background-color: #333333;
+    color: white;
+    /* border-left: 1px solid white ; */
+    border: none;
+    padding-left: 10px;
+}
+.navbar-2{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.nav2-left{
+    height: 60%;
+    /* align-self: center; */
+    margin-top: 17px;
+    width: 7%;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+}
+.nav2-left > img{
+    height: 100%;
+    width: 100%;
+}
+.nav2-mid{
+    height: 20px;
+    width: 59%;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.nav2-mid > p{
+    margin: 0%;
+    font-size: 14px;
+}
+.nav2-right{
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 19.5%;
+    align-self: center;
+    margin-left: 9.5%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2-right > input{
+    /* border: 1px solid black; */
+    width: 180px;
+    border: none;
+    font-size: 14px;
+    height: 24px;
+    outline: none;
+}
+.nav2-right >div> i{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.navbar-3{
+    height: 55px;
+    width: 97%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+   
+    /* border: 1px solid red; */
+    background-color: #333333;
+    display: flex;
+   gap: 0px; 
+    font-size: 12px;
+   
+  
+}
+.nav3-left{
+    height: 55px;
+    width: 65%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav3-left > p{
+    height: fit-content;
+    width: fit-content;
+    background-color : white;
+    padding: 5px 2px;
+    margin: 0%;
+    align-self: center;
+}
+
+.nav3-right > p{
+    font-size: 10px;
+    color :grey;
+    margin-top: 30px;
+}

@@ -1,0 +1,87 @@
+.footer-screen{
+    height: 530px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.footer-1{
+    height: 61%;
+    width: 100%;
+    border: 1px solid white;
+}
+.footer1-body{
+    height: 50%;
+    width: 81%;
+    margin-inline-start: 30px;
+    /* border: 1px solid white; */
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.footer1-1{
+    height: 100%;
+    /* border: 1px solid blue; */
+    width: 26%;
+}
+.footer-email{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+.footer-email  > input{
+    background-color: black;
+    outline: none;
+    border: none;
+}
+.footer-email  > input::placeholder{
+    color: white;
+}
+.footer-email  > button{
+    width: 65px;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top: 5px;
+    color: grey;
+}
+.footer1-2{
+    height: 100%;
+    /* border: 1px solid blue; */
+    width: 20%;
+}
+.footer1-3{
+    height: 100%;
+    /* border: 1px solid blue; */
+    width: 19%;
+}
+.footer1-4{
+    height: 100%;
+    /* border: 1px solid blue; */
+    width: 14%;
+}
+
+.footer-header{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer1-2 , .footer1-3 , .footer1-4 > p{
+    font-size: 14px;
+    line-height: 11px;
+} 
+
+.footer-2-p{
+    text-align: left;
+    margin-inline-start: 30px;
+    margin-block-start: 40px;
+    font-size: 15px;
+    margin-inline-end: 80px;
+    letter-spacing: 0.66px;
+}
